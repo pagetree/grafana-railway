@@ -2,7 +2,7 @@
 
 One-click Grafana deploy. **Prometheus auto-wired via env var.** No config files. No GitHub forks.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/REPLACE_ME)
+[![Deploy on Railway]([![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/prometheus-grafana))
 
 ---
 
