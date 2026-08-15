@@ -7,4 +7,4 @@ RUN chmod +x /entrypoint.sh
 
 EXPOSE 3000
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/entrypoint.sh"]
