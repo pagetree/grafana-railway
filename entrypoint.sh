@@ -54,8 +54,8 @@ echo "────────────────────────�
 # ─────────────────────────────────────────────
 export GF_SECURITY_ADMIN_USER
 export GF_SECURITY_ADMIN_PASSWORD
+export GF_SERVER_HTTP_ADDR="0.0.0.0"
 export GF_SERVER_HTTP_PORT="${PORT:-3000}"
-# Disable analytics/telemetry noise
 export GF_ANALYTICS_REPORTING_ENABLED=false
 export GF_ANALYTICS_CHECK_FOR_UPDATES=false
 
