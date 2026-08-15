@@ -39,7 +39,7 @@ http://prometheus-railway.railway.internal:9090
 
 ## Quick start with Prometheus
 
-1. Deploy the combined [Prometheus + Grafana](https://railway.com/deploy/prometheus-grafana) template, or deploy [prometheus-railway](https://github.com/pagetree/prometheus-railway) beside this service
+1. Deploy the combined [Prometheus + Grafana](https://railway.com/deploy/prometheus-grafana) template, or add a Prometheus service beside this one in the same project
 2. Keep Prometheus `PORT=9090` and Grafana `PORT=3000`
 3. Set Grafana `PROMETHEUS_URL` with the reference variable above
 4. Open Grafana, go to Explore, select Prometheus, run `up`
